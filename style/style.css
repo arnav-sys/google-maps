@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+#map{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.title{
+    position: absolute;
+    font-size: 80px;
+    color: #333;
+    text-transform: uppercase;
+    z-index: 100;
+    font-weight: bold;
+    top: 100px;
+    left: 100px;
+}
